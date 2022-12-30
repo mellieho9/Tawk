@@ -25,6 +25,10 @@ This is project I am developing during Winter break. It helps me practice my kno
 - Implemented dark/light mode and theme preset customization
 
 ## Preview
+<img src="https://github.com/mellieho9/Tawk/blob/main/preview/Login.png" width="500">
+<img src="https://github.com/mellieho9/Tawk/blob/main/preview/Home%20dashboard.png" width="500">
+<img src="https://github.com/mellieho9/Tawk/blob/main/preview/Nightmode%20with%20file%20transfer%20dial%20open.png" width="500">
+<img src="https://github.com/mellieho9/Tawk/blob/main/preview/Settings.png" width="500">
 
 
 ## Technologies used 🛠️
