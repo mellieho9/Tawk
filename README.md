@@ -32,6 +32,8 @@ This is project I am developing during Winter break. It helps me practice my kno
 
 
 ## Technologies used 🛠️
+### Wireframe
+Figma
 ### Frontend
 - React
 - MaterialUI (For UI components such as Box, Stack, Menu, Modal, Image, IconButton, Button, Alert)
