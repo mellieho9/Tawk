@@ -1,68 +1,70 @@
-# Tawk
-A secure and responsive multi-platform messenger app with customizable themes, file transfer, and video/call functionality
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Background 💡
-This is project I am developing during Winter break. It helps me practice my knowledge of React and React redux and gain exposure to MaterialUI, React Context API, Socket.io, and Agora WebRTC.
+## Available Scripts
 
-## Intended features 🧩
-- One-to-one messaging
-- Group messaging
-- Audio calling
-- Video calling
-- Stories/Updates
-- File upload/transfer
-- Block/Delete chat
-- Light/Dark Mode & Customizable themes
-- Authentication
-- Settings
+In the project directory, you can run:
 
-## Current Progress 🏃
-- Implemented the home dashboard (Which includes the side navigation bar, contact list, one-on-one message screen, and pop-up contact info menu)
-- Implemented the "Starred Messages" and "Shared Files" section of the pop-up contact info menu
-- Implemented the settings screen (As well as the pop-up menu for "Keyboard Shortcuts")
-- Implemented the UI and validation schema for the Login page
-- Implemented dark/light mode and theme preset customization
+### `npm start`
 
-## Preview
-<img src="https://github.com/mellieho9/Tawk/blob/main/preview/Login.png" width="500">
-<img src="https://github.com/mellieho9/Tawk/blob/main/preview/Home%20dashboard.png" width="500">
-<img src="https://github.com/mellieho9/Tawk/blob/main/preview/Nightmode%20with%20file%20transfer%20dial%20open.png" width="500">
-<img src="https://github.com/mellieho9/Tawk/blob/main/preview/Settings.png" width="500">
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Technologies used 🛠️
-### Wireframe
-Figma
-### Frontend
-- React
-- MaterialUI (For UI components such as Box, Stack, Menu, Modal, Image, IconButton, Button, Alert)
-- Phosphor-React (For icons)
-- Redux (For state management)
-- Emoji-mart (For emoji selection options)
-- React-Hook-Form (Login/Signup UI and validation)
-- FakerJS (To populate dummy data)
-### Backend (Intended)
-- NodeJS
-- ExpressJS 
-- MongoDB (Stores user data and messages)
-- Mongoose (Supports MongoDB)
-- Socket.io (For video calling / voice calling functionality)
-- Agora WebRTC API (For video calling / voice calling functionality)
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
 ### Deployment
-AWS EC2, S3
 
-# Try it yourself 🧰 
-1. Clone this repository
-2. Run 
-```
-  cd Tawk
-```
-3. Run 
-```
-  npm install
-```
-4. Run 
-```
-  npm run start
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
