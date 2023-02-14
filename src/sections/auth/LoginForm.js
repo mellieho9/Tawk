@@ -50,7 +50,7 @@ const LoginForm = () => {
         <Stack  alignItems="flex-end" sx={{my: 2}}>
             <Link variant="body2" color="inherit" underline="always" component={RouterLink} to="/auth/reset-password">Forgot Password?</Link>
         </Stack>
-        <Button fullWidth color="inherit" size="large" type="submit" variant="contained" sx={{bgcolor:"text.primary", color: (theme) => theme.palette.mode === "light" ? "common.white" : "grey.800", '&hover':{ bgcolor: "text.primary", color: (theme) => theme.palette.mode ===  "light" ? "common.white" : "grey.800"}}}>Login</Button>
+        <Button fullWidth color="inherit" size="large" type="submit" variant="contained">Login</Button>
     </FormProvider>
   )
 }
